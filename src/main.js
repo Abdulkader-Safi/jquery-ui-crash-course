@@ -9,10 +9,13 @@ window.jQuery = window.$ = $;
 import("jquery-ui-dist/jquery-ui").then(() => {
   console.log("jQuery version:", $.fn.jquery);
   console.log("jQuery UI loaded:", typeof $.fn.accordion);
+
+  // Initialize jQuery UI components after everything is loaded
+  init();
 });
 
-
-$(() => {
+const init = () => {
+  // ACCORDION
   $("#accordion").accordion({
     heightStyle: "content",
     collapsible: true,
@@ -65,4 +68,5 @@ $(() => {
       console.log("New order:", order);
     },
   });
-});
+}
+ry-ui-crash-course

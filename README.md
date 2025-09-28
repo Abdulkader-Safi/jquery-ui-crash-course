@@ -25,7 +25,7 @@ This project showcases the following jQuery UI components:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Abdulkader-Safi/jquery-ui-crash-course.git
 cd jquery-ui-crash-course
 ```
 

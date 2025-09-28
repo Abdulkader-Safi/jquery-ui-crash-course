@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Title</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>jQuery UI Crash Course</h1>
+
+      <h2>Accordion</h2>
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div><p>Content for section 1</p></div>
+        <h3>Section 2</h3>
+        <div><p>Content for section 2</p></div>
+        <h3>Section 3</h3>
+        <div><p>Content for section 3</p></div>
+      </div>
+
+      <h2>Tabs</h2>
+      <div id="tabs">
+        <ul>
+          <li><a href="#tab-1">Tab One</a></li>
+          <li><a href="#tab-2">Tab Two</a></li>
+        </ul>
+        <div id="tab-1"><p>First tab content.</p></div>
+        <div id="tab-2"><p>Second tab content.</p></div>
+      </div>
+
+      <h2>Dialog</h2>
+      <button id="openDialog">Open Dialog</button>
+      <div id="dialog" title="Hello!">
+        <p>This is a modal dialog powered by jQuery UI.</p>
+      </div>
+
+      <h2>Datepicker</h2>
+      <input id="dateInput" placeholder="Pick a date" />
+
+      <h2>Autocomplete</h2>
+      <input id="city" placeholder="Type a city..." />
+
+      <h2>Drag & Sort</h2>
+      <div id="dragMe" class="box">Drag me</div>
+      <ul id="sortable">
+        <li class="ui-state-default">Item A</li>
+        <li class="ui-state-default">Item B</li>
+        <li class="ui-state-default">Item C</li>
+      </ul>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
